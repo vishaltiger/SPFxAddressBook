@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "de6b221b-fe16-4255-8bd2-6ae132b39ab2",
+  "alias": "ReactWebWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "ReactWeb" },
+    "description": { "default": "React WebParts" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ReactWeb"
+    }
+  }]
+}
